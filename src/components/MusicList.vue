@@ -119,9 +119,10 @@
 <script>
 	export default{
 		name:"MusicList",
+		props:['list'],
 		data(){
 			return {
-				
+
 			}
 		}
 	}

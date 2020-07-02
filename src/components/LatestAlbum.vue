@@ -51,8 +51,49 @@
 		components:{ 'music-list':MusicList},
 		data(){
 			return {
-				publicPath: process.env.BASE_URL
+				publicPath: process.env.BASE_URL,
+				src:{}
 			}
+		},
+		beforeMount() {
+			this.getPhoto();
+			// this.getNew();
+		},
+		methods: {
+			getPhoto() {
+				fetch("https://song-finder1.p.rapidapi.com/task/cd28ad1f-f931-4aeb-9499-ea3b0a85f5c6", {
+					"method": "GET",
+					"headers": {
+						"x-rapidapi-host": "song-finder1.p.rapidapi.com",
+						"x-rapidapi-key": "8e7fd5ad6fmsh3d97f3e73f7df6cp146ee9jsn71bcd010bfdc"
+					}
+				})
+				.then(response => {
+					console.log(response);
+				})
+				.catch(err => {
+					console.log(err);
+				});
+			},
+			// getNew(){
+			// 	const axios = require("axios");
+			// 	axios({
+			// 		"method":"GET",
+			//     	"url":"https://openapi-provisioning.p.rapidapi.com/v1/apis",
+			//     	"headers":{
+			//     		"content-type":"application/octet-stream",
+			//     		"x-rapidapi-host":"openapi-provisioning.p.rapidapi.com",
+			//     		"x-rapidapi-key":"8e7fd5ad6fmsh3d97f3e73f7df6cp146ee9jsn71bcd010bfdc",
+			//     		"useQueryString":true
+			//    		}
+			//     })
+			//     .then((response)=>{
+			//       // console.log(response)
+			//     })
+			//     .catch((error)=>{
+			//       console.log(error)
+			//     })
+			// }
 		}
 	}
 </script>

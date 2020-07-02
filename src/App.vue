@@ -5,6 +5,7 @@
       <Nav></Nav>
       <Banner></Banner>
       <LatestAlbum></LatestAlbum>
+      <Footer></Footer>
     </div>
   </div>
 </template>
@@ -13,13 +14,15 @@
 import Nav from './components/Nav.vue'
 import Banner from './components/Banner.vue'
 import LatestAlbum from './components/LatestAlbum.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     Nav,
     Banner,
-    LatestAlbum
+    LatestAlbum,
+    Footer
   }
 }
 </script>
