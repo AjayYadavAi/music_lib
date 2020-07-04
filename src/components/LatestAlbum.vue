@@ -35,7 +35,7 @@
 					</div>
 					<div class="col-md-6 col-sm-6">
 						<!-- play list -->
-						<music-list></music-list>
+						<music-list v-bind:musiclist="musiclist"></music-list>
 					</div>
 				</div>
 			</div>
@@ -46,20 +46,26 @@
 
 <script>
 	import MusicList from './MusicList'
+
 	export default{
 		name:"latestalbum",
 		components:{ 'music-list':MusicList},
 		data(){
 			return {
 				publicPath: process.env.BASE_URL,
-				src:{}
+				musiclist:{}
 			}
 		},
-		beforeMount() {
-
+		mounted() {
+			this.currentData();
 		},
 		methods: {
-
+			async currentData(){
+				var api = "https://api.napster.com/v2.1/tracks/top?apikey="+process.env.VUE_APP_API_KEY;
+				const res = await fetch(api);
+				const data = await res.json();
+				this.musiclist = data.tracks;
+			},
 		}
 	}
 </script>
