@@ -4,8 +4,8 @@
 			<li class="playlist-number" v-for="music in musiclist" :key="music.id">
 				<!-- song information -->
 				<div class="song-info">
-					<h4>Melodi Song Track One</h4>
-					<p><strong>Album</strong>: Title &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Dawn</p>
+					<h4>{{ music.name }}</h4>
+					<p><strong>Album</strong>: {{ music.artistName}} &nbsp;|&nbsp; <strong>Type</strong>: {{ music.type}} &nbsp;|&nbsp; <strong>Singer</strong>: {{ music.artistName}}</p>
 				</div>
 				<!-- music icon -->
 				<div class="music-icon">
