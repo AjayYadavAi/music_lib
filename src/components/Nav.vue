@@ -43,8 +43,6 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#latestalbum">Album List</a></li>
-						<li><a href="#latestalbum">Latest Album</a></li>
-						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->

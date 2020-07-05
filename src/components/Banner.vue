@@ -12,8 +12,6 @@
 							<h2 class="animated fadeInLeftBig"><i class="fa fa-music"></i> Melodi For You!</h2>
 							<!-- paragraph -->
 							<h3 class="animated fadeInRightBig">Find More Innovative &amp; Creative Music Albums.</h3>
-							<!-- button -->
-							<a href="#" class="animated fadeIn btn btn-theme">Download Here</a>
 						</div>
 					</div>
 				</div>
@@ -26,8 +24,6 @@
 							<h2 class="animated fadeInLeftBig"><i class="fa fa-headphones"></i> Listen It...</h2>
 							<!-- paragraph -->
 							<h3 class="animated fadeInRightBig">Lorem ipsum dolor sit amet, consectetur elit.</h3>
-							<!-- button -->
-							<a href="#" class="animated fadeIn btn btn-theme">Listen Now</a>
 						</div>
 					</div>
 				</div>

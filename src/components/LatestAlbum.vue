@@ -23,14 +23,7 @@
 						</div>
 						<!-- album details -->
 						<div class="album-details">
-							<!-- title -->
-							<h4>Perfect Melodi</h4>
-							<!-- composed by -->
-							<h5>By Himanshu</h5>
-							<!-- paragraph -->
-							<p>Lorem Ipsum has been the industry's standard dummy text ever since 1500.</p>
-							<!-- button -->
-							<a href="#" class="btn btn-lg btn-theme" id="playNowBtn"><i class="fa fa-play"></i>&nbsp; Play Now</a>
+
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6">
