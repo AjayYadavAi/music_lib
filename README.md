@@ -4,7 +4,7 @@
 
 #Music list
 
-![alt text](https://github.com/AjayYadavAi/music_lib/src/assets/list.png?raw=true)
+![alt text](https://github.com/AjayYadavAi/music_lib/blob/master/src/assets/list.png?raw=true)
 
 #create .env file in music_lib 
 ```
