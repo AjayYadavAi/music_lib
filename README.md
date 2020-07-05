@@ -1,6 +1,6 @@
 # music_lib
 
-![alt text](https://github.com/AjayYadavAi/music_lib/src/assets/banner.png?raw=true)
+![alt text](https://github.com/AjayYadavAi/music_lib/blob/master/src/assets/banner.png?raw=true)
 
 #Music list
 
