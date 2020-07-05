@@ -1,5 +1,16 @@
 # music_lib
 
+![alt text](https://github.com/AjayYadavAi/music_lib/src/assets/banner.png?raw=true)
+
+#Music list
+
+![alt text](https://github.com/AjayYadavAi/music_lib/src/assets/list.png?raw=true)
+
+#create .env file in music_lib 
+```
+and write VUE_APP_API_KEY='your api key from https://developer.napster.com website' 
+```
+
 ## Project setup
 ```
 npm install
@@ -19,6 +30,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
