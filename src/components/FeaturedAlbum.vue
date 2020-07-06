@@ -62,7 +62,6 @@
 				var api = "https://api.napster.com/v2.1/albums/"+id+"/images?apikey="+process.env.VUE_APP_API_KEY;
 				axios.get(api).then((response)=>{
 					var path = response.data.images[2].url;
-					console.log(path);
 					return path;
 				});
 			}
