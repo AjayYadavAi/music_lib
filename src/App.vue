@@ -5,6 +5,8 @@
       <Nav></Nav>
       <Banner></Banner>
       <LatestAlbum></LatestAlbum>
+      <FeaturedAlbum></FeaturedAlbum>
+      
       <Footer></Footer>
     </div>
   </div>
@@ -14,6 +16,7 @@
 import Nav from './components/Nav.vue'
 import Banner from './components/Banner.vue'
 import LatestAlbum from './components/LatestAlbum.vue'
+import FeaturedAlbum from './components/FeaturedAlbum.vue'
 import Footer from './components/Footer.vue'
 
 export default {
@@ -22,7 +25,8 @@ export default {
     Nav,
     Banner,
     LatestAlbum,
-    Footer
+    Footer,
+    FeaturedAlbum
   }
 }
 </script>
