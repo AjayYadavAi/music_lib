@@ -54,7 +54,7 @@
 		},
 		methods: {
 			async currentData(){
-				var api = "https://api.napster.com/v2.1/tracks/top?apikey="+process.env.VUE_APP_API_KEY;
+				var api = "https://api.napster.com/v2.1/tracks/top?limit=5&apikey="+process.env.VUE_APP_API_KEY;
 				const res = await fetch(api);
 				const data = await res.json();
 				this.musiclist = data.tracks;
