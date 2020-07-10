@@ -2,7 +2,7 @@
   <div id="app">
     <div class="wrapper" id="home">
       <Nav></Nav>
-      <router-view></router-view>
+        <router-view></router-view>
       <Footer></Footer>
     </div>
   </div>
@@ -19,5 +19,6 @@ export default {
     Footer,
   }
 }
+
 </script>
 
