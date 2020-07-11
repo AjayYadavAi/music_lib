@@ -31,7 +31,7 @@
 	import MusicList from './MusicList'
 
 	export default{
-		name:"latestalbum",
+		name:"AlbumDetail",
 		components:{ 'music-list':MusicList},
 		data(){
 			return {
@@ -40,11 +40,12 @@
 			}
 		},
 		mounted() {
-			this.currentData();
+			this.currentData(this.$route.params.id);
 		},
 		methods: {
-			async currentData(){
-				var api = "https://api.napster.com/v2.1/tracks/top?limit=8&catalog=US&apikey="+process.env.VUE_APP_API_KEY;
+			async currentData(id){
+				console.log(id);
+				var api = "https://api.napster.com/v2.1/albums/"+id+"/albums/top?apikey="+process.env.VUE_APP_API_KEY;
 				const res = await fetch(api);
 				const data = await res.json();
 				this.musiclist = data.tracks;
