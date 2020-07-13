@@ -1,5 +1,4 @@
 <template>
-	<!-- featured abbum -->
 	<div class="featured pad" id="featuredalbum">
 		<div class="container">
 			<div class="default-heading">
